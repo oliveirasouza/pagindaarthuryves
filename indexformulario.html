@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fotos do meu filho</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/stylesformulario.css">
+</head>
+
+<body>
+
+  <h1>Formulário de contato</h1>
+  <form id="contatoForm"> 
+    <label for="name">Nome:</label>
+    <input type="text" id="name"  required name="name"> 
+    <label for="email">Email:</label>
+    <input type="email" id="email" required ="email"  maxlength="100">
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" required ></textarea>
+    <button type="submit" onclick="enviarFormulario()">Enviar</button>
+  </form>
+  <script src="js/scriptfuncaoformulario.js"></script>
+</body>
+
+
+</html>
