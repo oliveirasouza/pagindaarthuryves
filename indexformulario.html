@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fotos do meu filho</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <title>Session Storage e Cookies</title>
   <link rel="stylesheet" href="css/stylesformulario.css">
 </head>
 
@@ -18,7 +17,27 @@
     <input type="email" id="email" required ="email"  maxlength="100">
     <label for="mensagem">Mensagem:</label>
     <textarea id="mensagem" name="mensagem" required ></textarea>
+
+    <label> Escolha  onde você quer armazenar os dados:</label>
+    <input type="radio" id="localStorage"  name="storage"  value="local">
+    <label class="labelRadio" for="localStorage">Local Storage</label>
+
+    <input type="radio" id="sessionStorage" name="storage" value="session">
+    <label class="labelRadio" for="sessionStorage">Session Storage</label>
+
     <button type="submit" onclick="enviarFormulario()">Enviar</button>
+    
+    <button id="showLocalStorage">Mostrar Local Storage</button>
+    <button id="showSessionStorage">Mostrar Session Storage</button>
+    <button id="clearSessionStorage">Limpar Session Storage	</button>
+
+    <div id="storeData">
+      <div id="localStorageData" class="localStorageData"></div>
+      <div id="sessionStorageData" class="sessionStorageData"></div>
+    </div>
+
+
+
   </form>
   <script src="js/scriptfuncaoformulario.js"></script>
 </body>

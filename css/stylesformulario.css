@@ -11,5 +11,11 @@ body{
   label,button{
   display: block;
   height: 25px;
+  margin-top: 5px;
 
 }
+
+.labelRadio{
+  display: inline;
+}
+
