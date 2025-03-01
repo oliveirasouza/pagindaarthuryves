@@ -199,7 +199,8 @@ li a {
 
 .barra {
    background-color: #551a1a;
-   width: 1663px;
+   width: 2170px;
+   position: relative;
 }
 
 .maisfotos {
