@@ -2,15 +2,23 @@
 
 
 body {
-  font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #fff;
   background-color: #413d3d;
+  font-family: 'Arial Clean Write Bold', sans-serif;
+  font-size: 15px;
+  font-style: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
   color: #333;
+  font-size: 15px;
 }
 
 h1 {
@@ -24,7 +32,7 @@ h2 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 20px;
   line-height: 1.5;
   color: #f2f2f7;
@@ -43,7 +51,7 @@ img {
 /* Header Styles */
 
 header {
-  background-color:  #04AA6D;
+  background-color: #04AA6D;
   padding: 1px;
   position: fixed;
   top: 0;
@@ -56,9 +64,16 @@ header {
 
 header nav {
   padding: 1px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+
+
 }
 
 header nav ul {
@@ -66,7 +81,20 @@ header nav ul {
   justify-content: center;
   align-items: center;
   list-style: none;
+  border-radius: 5px;
+  background-color: #333;
+  padding: 2px;
+  margin: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.2s ease-in-out;
 }
+
 /* Main Styles */
 
 main {
@@ -93,7 +121,7 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 10px;
- 
+
 
 }
 
@@ -103,6 +131,7 @@ footer {
   main {
     flex-direction: column;
   }
+
   section {
     margin-bottom: 10px;
   }
@@ -112,12 +141,15 @@ footer {
   header nav {
     padding: 5px;
   }
+
   header nav ul {
     flex-direction: column;
   }
+
   header nav li {
     margin-right: 0;
   }
+
   section {
     padding: 10px;
   }
@@ -154,7 +186,7 @@ li a {
   background-color: #04AA6D;
   color: #fff;
   padding: 25px;
-  text-align: justify;
+  text-align: left;
   margin-bottom: 1px;
   border-bottom: 6px solid #3f3c3c;
   margin-top: 40px;
@@ -177,7 +209,7 @@ li a {
   justify-content: space-between;
   padding: 5px;
   margin-left: 20px;
-  
+
 
 }
 
@@ -193,14 +225,13 @@ li a {
 
 
 .navbar a.active {
-  color:#fff;
+  color: #fff;
   font-weight: bold;
 }
 
 .barra {
-   background-color: #551a1a;
-   width: 2170px;
-   position: relative;
+  background-color: #551a1a;
+  position: relative;
 }
 
 .maisfotos {
@@ -209,6 +240,6 @@ li a {
   text-align: justify;
   margin-bottom: 1px;
   border-bottom: 6px solid #3f3c3c;
-  color:#fff;
+  color: #fff;
   font-weight: bold;
 }
