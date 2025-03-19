@@ -64,7 +64,28 @@ header {
   margin-right: 3px;
   margin-top:1px;
   border-bottom: 1px solid #fff;
+}
 
+/* Regras de estilo para telas menores */
+@media (max-width: 768px) {
+  header {
+    padding: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top:0px;
+  }
+}
+
+/* Regras de estilo para telas menores ainda */
+@media (max-width: 480px) {
+  header {
+    padding: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top:0px;
+  }
 }
 
 header nav {
